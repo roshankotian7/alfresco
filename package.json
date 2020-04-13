@@ -1,0 +1,24 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roshankotian7/alfresco.git"
+  },
+  "author": "Roshan Kotian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roshankotian7/alfresco/issues"
+  },
+  "homepage": "https://github.com/roshankotian7/alfresco#readme",
+  "devDependencies": {
+    "cypress": "^4.3.0"
+  }
+}
